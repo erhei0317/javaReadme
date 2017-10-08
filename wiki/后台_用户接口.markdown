@@ -1,0 +1,94 @@
+[MENU]
+
+------
+
+####1.后台管理员登录
+
+**/manage/user/login.do**
+
+
+> request
+
+```
+String username,
+String password
+```
+
+> response
+
+success
+
+```
+{
+    "status": 0,
+    "data": {
+        "id": 12,
+        "username": "aaa",
+        "email": "aaa@163.com",
+        "phone": null,
+        "role": 0,
+        "createTime": 1479048325000,
+        "updateTime": 1479048325000
+    }
+}
+```
+
+fail
+```
+{
+    "status": 1,
+    "msg": "密码错误"
+}
+```
+
+------
+
+####2.模板
+
+**/REPLACE/.do**
+
+> request
+
+```
+k
+```
+
+> response
+
+success
+
+```
+k
+```
+
+fail
+```
+k
+```
+
+------
+
+####3.模板
+
+**/REPLACE/.do**
+
+> request
+
+```
+k
+```
+
+> response
+
+success
+
+```
+k
+```
+
+fail
+```
+k
+```
+
+------
